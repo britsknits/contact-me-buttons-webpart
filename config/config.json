@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "contact-me-buttons-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contactMeButtons/ContactMeButtonsWebPart.js",
+          "manifest": "./src/webparts/contactMeButtons/ContactMeButtonsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ContactMeButtonsWebPartStrings": "lib/webparts/contactMeButtons/loc/{locale}.js"
+  }
+}
